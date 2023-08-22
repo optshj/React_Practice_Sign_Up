@@ -1,0 +1,35 @@
+.Form{
+	display:flex;
+	flex-direction:column
+}
+.Sign{
+	display:flex;
+	font-size:24px;
+	padding-left:50px;
+}
+.Box{
+	padding-left:50px;
+	padding-top:60px;
+}
+.Input{
+	font-size:20px;
+	width:80%;
+	border:none;
+	border-bottom: 1px solid #D2CDCD;
+	outline:none;
+}
+.Input::placeholder{
+	color:#D2CDCD;
+}
+.Box:hover .Name{
+	visibility:initial;
+}
+.Input:focus{
+	transition:0.5s;
+	border-bottom: 1px solid #FF5252;
+}
+.Name{
+	color:#FF5252;
+	font-size:12px;
+	padding-bottom:7px;
+}
