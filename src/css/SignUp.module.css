@@ -13,7 +13,7 @@
 }
 .Input{
 	font-size:20px;
-	width:80%;
+	width:85%;
 	border:none;
 	border-bottom: 1px solid #D2CDCD;
 	outline:none;
@@ -32,4 +32,16 @@
 	color:#FF5252;
 	font-size:12px;
 	padding-bottom:7px;
+}
+.Input:focus::placeholder{
+	color:transparent;
+	transition:0.1s;
+}
+.Fail{
+	color:#d0021b;
+	height:24px;
+}
+.Sucess{
+	color:#9e9e9e;
+	height:24px;
 }

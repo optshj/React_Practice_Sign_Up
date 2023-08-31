@@ -1,0 +1,23 @@
+.able{
+	display:flex;
+	margin:auto;
+	margin-top:10%;
+	justify-content:center;
+	text-align:center;
+	padding:4% 40%;
+	background-color:#FF5252;
+	border-radius:20px;
+	color: white;
+	cursor:pointer;
+}
+.disable{
+	display:flex;
+	margin:auto;
+	margin-top:10%;
+	justify-content:center;
+	text-align:center;
+	padding:4% 40%;
+	background-color:#D2CDCD;
+	border-radius:20px;
+	color: white;
+}
